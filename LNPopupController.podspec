@@ -10,4 +10,9 @@ Pod::Spec.new do |s|
   s.source_files = "LNPopupController/**/*.{h,m}"
   s.exclude_files = 'LNPopupController/LNPopupController/private/**/*.{h,m}'
   s.public_header_files = 'LNPopupController/**/*.h'
+
+
+  s.resources             = 'LNPopupControllerAssets.xcassets'
+s.framework             = 'Foundation', 'UIKit'
+s.requires_arc          = true
 end
