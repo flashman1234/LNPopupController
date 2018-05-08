@@ -9,5 +9,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/flashman1234/LNPopupController.git", :tag => "#{s.version}" }
   s.source_files = "LNPopupController/**/*.{h,m}"
   s.exclude_files = 'LNPopupController/LNPopupController/private/**/*.{h,m}'
-  # s.public_header_files = 'LNPopupController/**/*.h'
+  s.public_header_files = 'LNPopupController/**/*.h'
 end
